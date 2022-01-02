@@ -30,6 +30,16 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "description": "Name of the user",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "format": ""
+            }
           }
         ],
         "responses": {
